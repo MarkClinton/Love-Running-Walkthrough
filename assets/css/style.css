@@ -133,7 +133,7 @@ main {
     margin: 20px auto;
 }
 
-#reasons > h2{
+#reasons h2{
     font-size: 280%;
     margin-bottom: 20px;
     text-align: center;
@@ -144,15 +144,31 @@ main {
     margin-bottom: 20px;
 }
 
-#benefits > p{
+#benefits p{
     padding: 0 20px;
 }
 
-#benefits > hr{
+#benefits hr{
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
 
+#circle-cover-bg{
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    background: url(../images/reasons-image.webp) no-repeat center center/cover;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
 /* Media query: tablets and largr (768px and up)*/
 @media screen and (min-width: 768px) {
